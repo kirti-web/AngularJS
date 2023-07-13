@@ -2,7 +2,24 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
-## Development server
+# Environment Setup
+
+
+This project made use of the RapidAPI Host and Key. To acquire access to the RapidAPI, go to the following link, sign in with your Gmail account, and then click 
+[RapidAPI](https://rapidapi.com/principalapis/api/currency-conversion-and-exchange-rates). 
+Configure this key in the environment file.
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your environment.ts file inside environment folder
+
+`RAPIDAPI_KEY`
+
+`RAPIDAPI_HOST`
+
+
+
+# Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
